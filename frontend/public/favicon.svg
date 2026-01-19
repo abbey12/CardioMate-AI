@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Background -->
+  <rect width="64" height="64" fill="#dc2626" rx="8"/>
+  
+  <!-- ECG Grid Lines (subtle) -->
+  <defs>
+    <pattern id="grid" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M 8 0 L 0 0 0 8" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="64" height="64" fill="url(#grid)"/>
+  
+  <!-- ECG Waveform - Classic Heartbeat Pattern (P-QRS-T) -->
+  <path 
+    d="M 8 40
+       L 10 40
+       L 12 36
+       L 14 40
+       L 16 40
+       L 18 32
+       L 20 20
+       L 22 24
+       L 24 32
+       L 26 40
+       L 28 44
+       L 30 40
+       L 32 40
+       L 34 40
+       L 36 36
+       L 38 40
+       L 40 40
+       L 42 32
+       L 44 20
+       L 46 24
+       L 48 32
+       L 50 40
+       L 52 44
+       L 54 40
+       L 56 40"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="2.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  
+  <!-- R-Peak Markers (at QRS complexes) -->
+  <circle cx="20" cy="20" r="2" fill="#ffffff"/>
+  <circle cx="44" cy="20" r="2" fill="#ffffff"/>
+</svg>
+

@@ -1,0 +1,1016 @@
+{
+  "app": {
+    "name": "CardioMate AI"
+  },
+  "language": {
+    "label": "Language",
+    "english": "English",
+    "french": "French"
+  },
+  "login": {
+    "logoAlt": "CardioMate AI Logo",
+    "welcomeBack": "Welcome Back",
+    "createAccount": "Create Facility Account",
+    "signInSubtitle": "Sign in to access your account",
+    "signUpSubtitle": "Register your facility to start ECG analysis",
+    "signIn": "Sign In",
+    "create": "Create Account",
+    "email": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "facilityName": "Facility Name",
+    "country": "Country",
+    "referral": "Referral Code (optional)",
+    "placeholderEmail": "you@example.com",
+    "placeholderPassword": "Enter your password",
+    "placeholderConfirm": "Re-enter your password",
+    "placeholderFacility": "CardioCare Clinic",
+    "placeholderReferral": "Enter referral code",
+    "selectCountry": "Select your country",
+    "forgotPassword": "Forgot your password?",
+    "alreadyHave": "Already have an account? Sign in",
+    "signingIn": "Signing in...",
+    "creating": "Creating account...",
+    "errors": {
+      "loginFailed": "Login failed. Please check your credentials.",
+      "signupFailed": "Signup failed.",
+      "passwordLength": "Password must be at least 8 characters",
+      "passwordMismatch": "Passwords do not match",
+      "selectCountry": "Please select your country"
+    }
+  },
+  "nav": {
+    "logout": "Logout",
+    "facilityPortal": "Facility Portal",
+    "adminPortal": "Admin Portal"
+  },
+  "sideNav": {
+    "dashboard": "Dashboard",
+    "reports": "All Reports",
+    "upload": "Upload ECG",
+    "patients": "Patients",
+    "analytics": "Analytics",
+    "referrals": "Referrals",
+    "wallet": "Wallet",
+    "settings": "Settings",
+    "facilities": "Facilities",
+    "revenue": "Revenue",
+    "countryPricing": "Country Pricing",
+    "auditLogs": "Audit Logs",
+    "paymentOps": "Payment Ops",
+    "opsStatus": "Operational Status"
+  },
+  "settings": {
+    "title": "Settings",
+    "profile": "Profile",
+    "password": "Password",
+    "preferences": "Preferences",
+    "completeSignup": "Complete your signup",
+    "signupCompleted": "Signup completed"
+  },
+  "adminSettings": {
+    "localization": "Localization",
+    "defaultLanguage": "Default language for new facilities",
+    "save": "Save settings",
+    "bonuses": "Bonuses",
+    "privacyRetention": "Privacy & Retention",
+    "bonusesLoading": "Loading bonus settings...",
+    "retentionLoading": "Loading retention settings..."
+  },
+  "facilityDashboard": {
+    "title": "Dashboard",
+    "subtitle": "Overview of your ECG reports and facility performance",
+    "actions": {
+      "viewAllReports": "View All Reports",
+      "analytics": "Analytics",
+      "uploadNew": "Upload New ECG"
+    },
+    "banner": {
+      "completeSignup": "Complete your facility signup",
+      "missingFields_one": "{{count}} required field missing.",
+      "missingFields_other": "{{count}} required fields missing.",
+      "completeNow": "Complete now"
+    },
+    "errors": {
+      "loadTitle": "Error loading dashboard data",
+      "unexpected": "An unexpected error occurred",
+      "retry": "Retry"
+    },
+    "stats": {
+      "walletBalance": "Wallet Balance",
+      "analysesRemaining_one": "~{{count}} analysis remaining",
+      "analysesRemaining_other": "~{{count}} analyses remaining",
+      "totalReports": "Total Reports",
+      "normalReports": "Normal Reports",
+      "abnormalReports": "Abnormal Reports",
+      "last7Days": "Last 7 Days",
+      "avgHeartRate": "Avg Heart Rate",
+      "avgPatientAge": "Avg Patient Age",
+      "abnormalityRate": "Abnormality Rate"
+    },
+    "cards": {
+      "bpmValue": "{{value}} bpm"
+    },
+    "analytics": {
+      "mostCommonFinding": "Most Common Finding",
+      "activityTrend": "Activity Trend"
+    },
+    "pagination": {
+      "rowsPerPage": "Rows per page:"
+    },
+    "report": {
+      "mrn": "MRN: {{mrn}}"
+    },
+    "units": {
+      "bpm": "bpm"
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "upload": "Upload ECG",
+      "uploadDesc": "Upload a new ECG for analysis",
+      "reports": "All Reports",
+      "reportsDesc": "View and manage all reports",
+      "analytics": "Analytics",
+      "analyticsDesc": "View detailed analytics",
+      "settings": "Settings",
+      "settingsDesc": "Manage account settings"
+    },
+    "recentReports": {
+      "title": "Recent Reports",
+      "showing_one": "Showing {{shown}} of {{total}} report",
+      "showing_other": "Showing {{shown}} of {{total}} reports",
+      "viewAll": "View All",
+      "loading": "Loading reports...",
+      "noResults": "No reports found",
+      "empty": "No reports yet"
+    },
+    "filters": {
+      "searchPlaceholder": "Search by patient name, ID, or rhythm...",
+      "fromDate": "From Date",
+      "toDate": "To Date",
+      "exportCsv": "Export CSV"
+    },
+    "table": {
+      "dateTime": "Date & Time",
+      "patient": "Patient",
+      "heartRate": "Heart Rate",
+      "rhythm": "Rhythm",
+      "status": "Status",
+      "actions": "Actions",
+      "findings_one": "{{count}} finding",
+      "findings_other": "{{count}} findings",
+      "normal": "Normal",
+      "view": "View"
+    },
+    "referrals": {
+      "title": "Referral Program",
+      "subtitle": "Share your referral code and earn bonuses when facilities sign up",
+      "viewDetails": "View Details",
+      "codeLabel": "Your Referral Code",
+      "loading": "Loading...",
+      "copy": "Copy",
+      "copied": "Referral code copied to clipboard!",
+      "noCode": "No referral code available",
+      "earnings": "Referral Earnings",
+      "total": "Total Referrals",
+      "thisMonth": "This Month",
+      "recent": "Recent Referrals",
+      "table": {
+        "facility": "Facility",
+        "bonus": "Bonus Earned",
+        "date": "Date"
+      }
+    }
+  },
+  "facilityAllReports": {
+    "title": "All Reports",
+    "subtitle": "Comprehensive view and management of all ECG reports",
+    "actions": {
+      "uploadNew": "Upload New ECG"
+    },
+    "filters": {
+      "allReports": "All Reports",
+      "normalOnly": "Normal Only",
+      "abnormalOnly": "Abnormal Only",
+      "clear": "Clear Filters",
+      "searchPlaceholder": "Search by patient name, ID, rhythm, or abnormalities...",
+      "fromDate": "From Date",
+      "toDate": "To Date",
+      "advanced": "Advanced",
+      "rhythm": "Rhythm Type",
+      "allRhythms": "All Rhythms",
+      "showAdvanced": "Advanced Filters",
+      "hideAdvanced": "Hide Filters"
+    },
+    "bulk": {
+      "selected_one": "{{count}} report selected",
+      "selected_other": "{{count}} reports selected",
+      "download": "Download PDFs",
+      "exportCsv": "Export CSV",
+      "clearSelection": "Clear Selection"
+    },
+    "loading": "Loading reports...",
+    "empty": {
+      "title": "No reports found",
+      "tryFilters": "Try adjusting your filters",
+      "uploadFirst": "Upload your first ECG report to get started"
+    },
+    "pagination": {
+      "pageOf": "Page {{page}} of {{total}}",
+      "perPage": "{{count}} per page"
+    },
+    "selection": {
+      "enable": "Enable Selection"
+    },
+    "patient": {
+      "mrn": "MRN: {{mrn}}"
+    },
+    "units": {
+      "bpm": "bpm"
+    },
+    "table": {
+      "dateTime": "Date & Time",
+      "patient": "Patient",
+      "heartRate": "Heart Rate",
+      "rhythm": "Rhythm",
+      "status": "Status",
+      "actions": "Actions",
+      "findings_one": "{{count}} finding",
+      "findings_other": "{{count}} findings",
+      "normal": "Normal",
+      "view": "View",
+      "ageSex": "{{age}} years, {{sex}}"
+    }
+  },
+  "facilityAnalytics": {
+    "title": "Analytics",
+    "subtitle": "Insights into your ECG report trends and patterns",
+    "filters": {
+      "title": "Filters & Date Range",
+      "period": "Period",
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "last7Days": "Last 7 Days",
+      "last30Days": "Last 30 Days",
+      "last90Days": "Last 90 Days"
+    },
+    "loading": "Loading analytics...",
+    "noData": "No data available",
+    "cards": {
+      "totalReports": "Total Reports",
+      "abnormalReports": "Abnormal Reports",
+      "normalReports": "Normal Reports",
+      "averageAge": "Average Age",
+      "avgHeartRate": "Avg Heart Rate",
+      "last7Days": "Last 7 Days",
+      "trend7Days": "7 days vs previous 23 days",
+      "trendAvg23Days": "vs avg of previous 23 days",
+      "percentOfTotal": "{{percent}}% of total",
+      "yearsValue": "{{value}} years",
+      "bpmValue": "{{value}} bpm",
+      "na": "N/A"
+    },
+    "empty": {
+      "abnormalities": "No abnormalities data",
+      "age": "No age data available",
+      "sex": "No sex data available"
+    },
+    "charts": {
+      "volume": "Report Volume Trend",
+      "reports": "Reports",
+      "abnormalities": "Top Abnormalities",
+      "ageDistribution": "Age Distribution",
+      "sexDistribution": "Sex Distribution"
+    }
+  },
+  "facilityUpload": {
+    "title": "Upload ECG",
+    "subtitle": "Upload ECG files for AI-powered interpretation using CardioMate AI",
+    "patientInfo": {
+      "title": "Patient Information",
+      "subtitle": "Required for clinical interpretation",
+      "fields": {
+        "name": "Name",
+        "age": "Age",
+        "sex": "Sex",
+        "mrn": "Medical Record Number",
+        "clinicalIndication": "Clinical Indication",
+        "medications": "Medications"
+      },
+      "placeholders": {
+        "name": "Patient full name",
+        "age": "Enter age in years",
+        "mrn": "MRN (optional)",
+        "clinicalIndication": "e.g., Chest pain, Syncope, Routine screening",
+        "medications": "Add medication (press Enter)"
+      },
+      "options": {
+        "selectSex": "Select...",
+        "male": "Male",
+        "female": "Female",
+        "other": "Other"
+      }
+    },
+    "previewAlt": "ECG preview",
+    "waveformPreview": "Waveform Preview",
+    "waveformPreviewTitle": "Waveform preview",
+    "errors": {
+      "requiredPatientInfo": "Please fill in required patient information: Name, Age, and Sex",
+      "uploadFailed": "Upload failed",
+      "downloadFailed": "Download failed"
+    },
+    "uploadCard": {
+      "title": "Upload ECG",
+      "supported": "Supported: .csv, .json, .png, .jpg, .jpeg",
+      "remove": "Remove",
+      "dropHere": "Drop ECG file here or click to browse",
+      "supportsTypes": "Supports CSV, JSON, and image formats",
+      "imagePreview": "Image Preview",
+      "sampleRate": "Sample Rate (Hz)",
+      "sampleRateHintPrefix": "Used for CSV files. JSON can include its own",
+      "sampleRateHintSuffix": "Images ignore this value.",
+      "interpreting": "Interpreting...",
+      "uploadInterpret": "Upload & Interpret"
+    }
+  },
+  "facilityReport": {
+    "title": "ECG Report",
+    "loading": "Loading report...",
+    "notFound": "Report not found",
+    "actions": {
+      "downloadPdf": "📥 Download PDF",
+      "forwardWhatsApp": "Forward to WhatsApp"
+    },
+    "uploadedImageAlt": "Uploaded ECG",
+    "errors": {
+      "downloadFailed": "Download failed"
+    },
+    "decision": {
+      "evidence": "Evidence:",
+      "normalRange": "Normal Range:",
+      "deviation": "Deviation:",
+      "confidence": "Confidence:"
+    },
+    "sections": {
+      "clinicalImpression": "Clinical Impression",
+      "recommendations": "Recommendations",
+      "decisionExplanation": "Decision Explanation",
+      "patientInfo": "Patient Information",
+      "waveform": "Waveform Preview",
+      "waveformTitle": "Waveform preview (normalized) + R-peak markers",
+      "noAbnormalities": "No abnormalities detected. ECG appears normal."
+    },
+    "fields": {
+      "name": "Name",
+      "age": "Age",
+      "ageValue": "{{age}} years",
+      "sex": "Sex",
+      "mrn": "MRN",
+      "clinicalIndication": "Clinical Indication",
+      "medications": "Medications"
+    },
+    "whatsapp": {
+      "title": "Forward to Physician",
+      "subtitle": "Send this ECG report via WhatsApp",
+      "physicianName": "Physician Name",
+      "physicianPlaceholder": "Dr. John Smith",
+      "phoneNumber": "Phone Number",
+      "phonePlaceholder": "+1234567890 (with country code)",
+      "cancel": "Cancel",
+      "open": "Open WhatsApp",
+      "summary": {
+        "title": "What will be sent:",
+        "patientNameDate": "Patient name and report date",
+        "keyMeasurements": "Key measurements (heart rate, rhythm)",
+        "abnormalities": "Abnormalities summary",
+        "clinicalImpression": "Clinical impression",
+        "reportLink": "Link to view full report"
+      }
+    }
+  },
+  "facilityReferrals": {
+    "title": "Referral Program",
+    "subtitle": "Share your referral code and earn bonuses when facilities sign up",
+    "codeTitle": "Your Referral Code",
+    "codeSubtitle": "Share this code with other facilities to earn bonuses",
+    "loading": "Loading...",
+    "copy": "Copy Code",
+    "copied": "Copied!",
+    "share": "Share",
+    "emptyCode": "No referral code available",
+    "stats": {
+      "totalReferrals": "Total Referrals",
+      "totalEarnings": "Total Earnings",
+      "thisMonth": "This Month",
+      "avgPerReferral": "Avg per Referral"
+    },
+    "table": {
+      "title": "All Referrals",
+      "loading": "Loading referrals...",
+      "theyReceived": "They received",
+      "youEarned": "You earned"
+    }
+  },
+  "adminReports": {
+    "title": "All Reports",
+    "subtitle": "View all ECG reports across all facilities",
+    "searchPlaceholder": "Search reports by report ID or rhythm...",
+    "loading": "Loading reports...",
+    "na": "N/A",
+    "table": {
+      "patient": "Patient",
+      "heartRate": "Heart Rate",
+      "rhythm": "Rhythm",
+      "date": "Date",
+      "actions": "Actions",
+      "anonymizedPatient": "Patient {{id}}",
+      "heartRateValue": "{{value}} bpm"
+    },
+    "empty": {
+      "search": "No reports found matching your search.",
+      "default": "No reports yet."
+    }
+  },
+  "adminDashboard": {
+    "pricing": {
+      "manage": "Manage Pricing",
+      "loading": "Loading pricing...",
+      "standardTitle": "Standard Analysis",
+      "standardHint": "CSV/JSON files",
+      "imageTitle": "Image Analysis",
+      "imageHint": "Image files (JPG/PNG/PDF)"
+    },
+    "bonuses": {
+      "title": "Bonus Configuration",
+      "subtitle": "Manage signup and referral bonuses for facilities",
+      "manage": "Manage Bonuses",
+      "loading": "Loading bonus settings...",
+      "signupTitle": "Signup Bonus",
+      "referralTitle": "Referral Bonus",
+      "enabled": "✓ Enabled",
+      "disabled": "Disabled",
+      "signupHint": "For new facility signups",
+      "referralHint": "For referring facilities"
+    },
+    "recentFacilities": {
+      "title": "Recent Facilities",
+      "subtitle": "Latest registered facilities on the platform",
+      "loading": "Loading facilities..."
+    },
+    "quickActions": {
+      "manageFacilities": {
+        "title": "Manage Facilities",
+        "subtitle": "View and manage all facilities"
+      },
+      "allReports": {
+        "title": "All Reports",
+        "subtitle": "View all ECG reports across facilities"
+      },
+      "analytics": {
+        "title": "Platform Analytics",
+        "subtitle": "View platform-wide insights"
+      }
+    }
+  },
+  "facilityWallet": {
+    "title": "Wallet Management",
+    "currentBalance": "Current Balance",
+    "loadingBalance": "Loading...",
+    "lowBalance": "⚠️ Low Balance",
+    "analysisPricing": "Analysis Pricing:",
+    "pricingStandard": "Standard (CSV/JSON)",
+    "pricingImage": "Image",
+    "topUpTitle": "Top Up Wallet via Paystack",
+    "paymentInProgress": "Payment in progress...",
+    "paymentReference": "Reference: {{reference}}",
+    "customAmountPlaceholder": "Custom amount ({{symbol}}{{min}} - {{symbol}}{{max}})",
+    "initializing": "Initializing...",
+    "payWithPaystack": "Pay with Paystack",
+    "securePaymentNote": "Secure payment via Paystack. Supports cards, mobile money (MTN, Vodafone, AirtelTigo), and bank transfers.",
+    "recentTopUps": "Recent Top-Ups",
+    "referenceLabel": "Ref:",
+    "confirmCancelTopUp": "Are you sure you want to cancel this top-up?",
+    "delete": "Delete",
+    "retrying": "Retrying...",
+    "tryPayment": "Try Payment",
+    "transactionHistory": "Transaction History",
+    "loadingTransactions": "Loading transactions...",
+    "noTransactions": "No transactions found",
+    "table": {
+      "date": "Date",
+      "type": "Type",
+      "amount": "Amount",
+      "balanceAfter": "Balance After",
+      "description": "Description",
+      "status": "Status"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "pageOf": "Page {{page}} of {{totalPages}}"
+    },
+    "alerts": {
+      "paymentSuccess": "Payment successful! Your wallet has been topped up.",
+      "cancelled": "Top-up cancelled successfully",
+      "cancelFailed": "Failed to cancel top-up",
+      "paystackKeyMissing": "Paystack public key is not configured. Please check your environment variables.",
+      "userEmailRequired": "User email is required for payment. Please log in again.",
+      "retryFailed": "Failed to retry payment",
+      "paymentNotCompleted": "Payment was not completed. Please try again.",
+      "initFailed": "Failed to initialize payment",
+      "invalidAmount": "Please enter a valid amount",
+      "minAmount": "Minimum top-up amount is {{amount}}",
+      "maxAmount": "Maximum top-up amount is {{amount}}"
+    }
+  },
+  "facilitySettings": {
+    "subtitle": "Manage your account settings and preferences",
+    "messages": {
+      "profileUpdated": "Profile updated successfully",
+      "profileUpdateFailed": "Failed to update profile",
+      "passwordChanged": "Password changed successfully",
+      "passwordChangeFailed": "Failed to change password",
+      "passwordMismatch": "New passwords do not match",
+      "passwordLength": "Password must be at least 8 characters",
+      "preferencesSaved": "Preferences saved successfully",
+      "preferencesSaveFailed": "Failed to save preferences"
+    },
+    "missingFields": {
+      "phone": "Facility phone",
+      "addressLine1": "Address line 1",
+      "city": "City",
+      "country": "Country",
+      "facilityType": "Facility type",
+      "contactName": "Primary contact name",
+      "contactPhone": "Primary contact phone"
+    },
+    "profile": {
+      "city": "City",
+      "country": "Country",
+      "selectCountry": "Select country",
+      "facilityType": "Facility Type",
+      "selectType": "Select type",
+      "websiteOptional": "Website (optional)",
+      "primaryContact": "Primary Contact",
+      "contactName": "Contact Name",
+      "contactPhone": "Contact Phone",
+      "accountDetails": "Account Details",
+      "placeholders": {
+        "phone": "+233...",
+        "website": "https://",
+        "contactPhone": "+233xxxxxxxxx"
+      }
+    },
+    "completeSignup": {
+      "subtitle": "Fill the required fields below to finish onboarding and enable billing & reporting."
+    },
+    "actions": {
+      "saving": "Saving...",
+      "saveChanges": "Save Changes"
+    },
+    "preferences": {
+      "title": "Preferences",
+      "subtitle": "Customize how you use the facility portal. Saved locally on this device.",
+      "defaultDateRange": "Default Date Range",
+      "last7Days": "Last 7 days",
+      "last30Days": "Last 30 days",
+      "last90Days": "Last 90 days",
+      "defaultReportView": "Default Report View",
+      "summary": "Summary",
+      "fullReport": "Full report",
+      "placeholders": {
+        "timezone": "e.g., Africa/Accra"
+      }
+    },
+    "facilityType": {
+      "hospital": "Hospital",
+      "clinic": "Clinic",
+      "diagnosticCenter": "Diagnostic Center",
+      "telemedicine": "Telemedicine",
+      "research": "Research",
+      "other": "Other"
+    }
+  },
+  "adminAnalytics": {
+    "title": "Platform Analytics",
+    "subtitle": "Comprehensive insights across all facilities and reports",
+    "filters": {
+      "title": "Filters",
+      "fromDate": "From Date",
+      "toDate": "To Date",
+      "period": "Period",
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "clear": "Clear Filters"
+    },
+    "metrics": {
+      "totalFacilities": "Total Facilities",
+      "totalReports": "Total Reports",
+      "normalReports": "Normal Reports",
+      "abnormalReports": "Abnormal Reports",
+      "avgHeartRate": "Avg Heart Rate",
+      "avgAge": "Avg Age",
+      "reportsLast30Days": "{{count}} in last 30 days",
+      "percentOfTotal": "{{percent}}% of total",
+      "abnormalityRate": "{{percent}}% abnormality rate",
+      "avgHeartRateValue": "{{value}} bpm",
+      "avgAgeValue": "{{value}} years",
+      "na": "N/A"
+    },
+    "reportVolume": {
+      "title": "Report Volume Over Time",
+      "subtitle": "{{period}} report count",
+      "legend": "Reports"
+    },
+    "chart": {
+      "loading": "Loading chart data...",
+      "noData": "No data available"
+    },
+    "abnormalities": {
+      "title": "Top Abnormalities",
+      "subtitle": "Most common findings across all reports",
+      "countLabel": "Count",
+      "noData": "No abnormalities data"
+    },
+    "demographics": {
+      "sexDistribution": {
+        "title": "Sex Distribution",
+        "subtitle": "Patient demographics"
+      },
+      "noData": "No demographics data"
+    },
+    "insights": {
+      "title": "Additional Insights",
+      "mostCommonAbnormality": "Most Common Abnormality",
+      "averagePatientAge": "Average Patient Age",
+      "reportsLast7Days": "Reports Last 7 Days"
+    },
+    "facilityHealth": {
+      "title": "Facility Leaderboard & Health",
+      "subtitle": "Top facilities by volume, abnormality rate, revenue, and last activity",
+      "loading": "Loading facility health data...",
+      "noData": "No facility data available",
+      "abnormalCount": "{{count}} abnormal",
+      "table": {
+        "facility": "Facility",
+        "reports": "Reports",
+        "abnormalRate": "Abnormal Rate",
+        "revenue": "Revenue",
+        "lastActivity": "Last Activity"
+      }
+    }
+  },
+  "adminFacilities": {
+    "title": "Facilities Management",
+    "subtitle": "Manage all facilities on the platform",
+    "searchPlaceholder": "Search facilities by name or email...",
+    "loading": "Loading facilities...",
+    "confirmDelete": "Delete {{name}}? This will also delete all their reports and wallet data.",
+    "table": {
+      "facility": "Facility",
+      "email": "Email",
+      "created": "Created",
+      "actions": "Actions"
+    },
+    "actions": {
+      "create": "Create Facility",
+      "view": "View",
+      "delete": "Delete",
+      "cancel": "Cancel"
+    },
+    "empty": {
+      "search": "No facilities found matching your search.",
+      "default": "No facilities yet. Create one to get started."
+    },
+    "modal": {
+      "title": "Facility Details",
+      "loading": "Loading facility details...",
+      "created": "Created",
+      "facilityId": "Facility ID",
+      "totalReports": "Total Reports",
+      "walletBalance": "Wallet Balance",
+      "failedToLoad": "Failed to load facility details",
+      "quickActions": {
+        "title": "Quick Actions",
+        "reports": "View all reports from this facility in the Reports section",
+        "revenue": "Check revenue generated by this facility in the Revenue section",
+        "activity": "Monitor facility activity and performance"
+      }
+    },
+    "createModal": {
+      "title": "Create New Facility",
+      "error": "Failed to create facility",
+      "fields": {
+        "name": "Facility Name",
+        "email": "Email Address",
+        "password": "Password",
+        "referral": "Referral Code (Optional)"
+      },
+      "placeholders": {
+        "name": "Enter facility name",
+        "email": "facility@example.com",
+        "password": "Minimum 8 characters",
+        "referral": "Enter referral code if applicable"
+      },
+      "hints": {
+        "password": "Must be at least 8 characters long",
+        "referral": "If provided, the referring facility will receive a bonus"
+      },
+      "creating": "Creating..."
+    }
+  },
+  "adminReport": {
+    "title": "ECG Report",
+    "loading": "Loading report...",
+    "notFound": "Report not found",
+    "backToReports": "← Back to Reports",
+    "backToAllReports": "Back to All Reports",
+    "reportId": "Report ID: {{id}}",
+    "downloadPdf": "Download PDF",
+    "downloadFailed": "Download failed",
+    "uploadedImage": "Uploaded ECG Image",
+    "uploadedImageAlt": "Uploaded ECG",
+    "aiReport": "Report",
+    "modelCreated": "Created: {{createdAt}}",
+    "unknownModel": "unknown",
+    "na": "N/A",
+    "patientInfoTitle": "Patient Information",
+    "waveformTitle": "Waveform preview (normalized) + R-peak markers",
+    "waveformPreview": "Waveform Preview",
+    "privacyNote": {
+      "title": "Privacy Note:",
+      "body": "Patient identifying information has been anonymized for admin viewing. Medical Record Number (MRN) and other sensitive identifiers are not displayed."
+    },
+    "fields": {
+      "name": "Name",
+      "anonymizedName": "Patient {{id}}",
+      "age": "Age",
+      "ageValue": "{{value}} years",
+      "sex": "Sex",
+      "clinicalIndication": "Clinical Indication",
+      "medications": "Medications",
+      "medicationsCount": "{{count}} medication(s) listed",
+      "heartRate": "Heart Rate",
+      "heartRateValue": "{{value}} bpm",
+      "rhythm": "Rhythm",
+      "prInterval": "PR Interval",
+      "qrsDuration": "QRS Duration",
+      "qtInterval": "QT Interval",
+      "qtcInterval": "QTc Interval"
+    }
+  },
+  "adminRevenue": {
+    "title": "Revenue Management",
+    "subtitle": "Platform revenue analytics and insights",
+    "export": "Export",
+    "exportComingSoon": "Export functionality coming soon",
+    "error": {
+      "title": "Error loading revenue data",
+      "message": "An unexpected error occurred",
+      "retry": "Retry"
+    },
+    "loading": "Loading revenue data...",
+    "loadingShort": "Loading...",
+    "noData": "No revenue data available",
+    "metrics": {
+      "totalRevenue": "Total Revenue",
+      "totalRevenueSubtitle": "From {{count}} top-ups",
+      "topUpRevenue": "Top-Up Revenue",
+      "topUpRevenueSubtitle": "{{count}} verified top-ups",
+      "analysisRevenue": "Analysis Revenue",
+      "analysisRevenueSubtitle": "{{count}} analyses performed",
+      "avgTopUp": "Average per Top-Up",
+      "avgTopUpSubtitle": "Mean top-up amount"
+    },
+    "trends": {
+      "title": "Revenue Trends",
+      "subtitle": "Monthly revenue from top-ups (last 12 months)",
+      "revenueLabel": "Revenue"
+    },
+    "analysisType": {
+      "title": "Revenue by Analysis Type",
+      "standard": "Standard (CSV/JSON)",
+      "image": "Image (JPG/PNG/PDF)",
+      "analysisCount": "{{count}} analyses"
+    },
+    "topFacilities": {
+      "title": "Top Facilities by Revenue",
+      "totalRevenue": "Total Revenue"
+    },
+    "table": {
+      "title": "Revenue by Facility",
+      "loading": "Loading facilities revenue...",
+      "facility": "Facility",
+      "topUpRevenue": "Top-Up Revenue",
+      "analysisRevenue": "Analysis Revenue",
+      "totalRevenue": "Total Revenue",
+      "transactions": "Transactions",
+      "topUpCount": "{{count}} top-ups",
+      "analysisCount": "{{count}} analyses",
+      "transactionsTotal": "{{count}} total"
+    }
+  },
+  "adminPaymentOps": {
+    "title": "Payment Ops",
+    "subtitle": "Track Paystack webhooks, failures, retries, and reconciliation",
+    "refresh": "Refresh",
+    "summary": {
+      "totalWebhooks": "Total Webhooks",
+      "processed": "Processed",
+      "failed": "Failed"
+    },
+    "status": {
+      "all": "All",
+      "processed": "Processed",
+      "failed": "Failed",
+      "pending": "Pending"
+    },
+    "webhooks": {
+      "title": "Webhook Events",
+      "loading": "Loading webhook events...",
+      "empty": "No webhook events",
+      "retry": "Retry",
+      "table": {
+        "event": "Event",
+        "reference": "Reference",
+        "status": "Status",
+        "attempts": "Attempts",
+        "actions": "Actions"
+      }
+    },
+    "topUps": {
+      "title": "Top-ups",
+      "loading": "Loading top-ups...",
+      "empty": "No top-ups",
+      "table": {
+        "reference": "Reference",
+        "requested": "Requested",
+        "received": "Received",
+        "status": "Status"
+      }
+    }
+  },
+  "adminOpsStatus": {
+    "title": "Operational Status",
+    "subtitle": "System health, AI errors, email failures, and operational events",
+    "na": "—",
+    "cards": {
+      "errors24h": "Errors (24h)",
+      "aiErrors24h": "AI Errors (24h)",
+      "emailErrors24h": "Email Errors (24h)",
+      "lastEvent": "Last Event"
+    },
+    "recentEvents": {
+      "title": "Recent Events",
+      "loading": "Loading events...",
+      "empty": "No operational events",
+      "table": {
+        "type": "Type",
+        "message": "Message",
+        "time": "Time"
+      }
+    }
+  },
+  "adminAuditLogs": {
+    "title": "Audit Logs",
+    "subtitle": "Track admin actions across the platform",
+    "refresh": "Refresh",
+    "loading": "Loading logs...",
+    "empty": "No audit logs yet",
+    "table": {
+      "action": "Action",
+      "entity": "Entity",
+      "metadata": "Metadata",
+      "time": "Time"
+    }
+  },
+  "adminCountryPricing": {
+    "title": "Country Pricing Management",
+    "subtitle": "Configure pricing for each country you scale to",
+    "addPricing": "Add Country Pricing",
+    "editPricing": "Edit Country Pricing",
+    "searchPlaceholder": "Search countries...",
+    "totalCountries": "Total Countries",
+    "pricingConfigs": "Pricing Configs",
+    "loading": "Loading country pricing...",
+    "error": "Failed to load country pricing",
+    "noPricing": "No country pricing configured yet. Click 'Add Country Pricing' to get started.",
+    "country": "Country",
+    "analysisType": "Analysis Type",
+    "price": "Price",
+    "currency": "Currency",
+    "actions": "Actions",
+    "standard": "Standard",
+    "image": "Image",
+    "edit": "Edit",
+    "delete": "Delete",
+    "selectCountry": "Select a country",
+    "standardLabel": "Standard (CSV/JSON)",
+    "cancel": "Cancel",
+    "save": "Save",
+    "saving": "Saving..."
+  },
+  "adminLogin": {
+    "title": "Admin Portal",
+    "subtitleLogin": "Sign in to admin portal",
+    "subtitleSignup": "Create admin account",
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "password": "Password"
+    },
+    "placeholders": {
+      "name": "Your name",
+      "email": "admin@example.com",
+      "password": "Password",
+      "passwordSignup": "Min 8 characters"
+    },
+    "actions": {
+      "loading": "Loading...",
+      "create": "Create Account",
+      "signIn": "Sign In",
+      "backToSelection": "← Back to portal selection"
+    },
+    "errors": {
+      "authFailed": "Authentication failed"
+    }
+  },
+  "facilityLogin": {
+    "title": "Facility Portal",
+    "subtitle": "Sign in to your facility account",
+    "fields": {
+      "email": "Email",
+      "password": "Password"
+    },
+    "placeholders": {
+      "email": "facility@example.com",
+      "password": "Password"
+    },
+    "actions": {
+      "loading": "Loading...",
+      "signIn": "Sign In",
+      "backToSelection": "← Back to portal selection"
+    },
+    "errors": {
+      "loginFailed": "Login failed"
+    }
+  },
+  "forgotPassword": {
+    "logoAlt": "CardioMate AI Logo",
+    "title": "Forgot Password?",
+    "subtitle": "Enter your email and we'll send you a reset link",
+    "success": {
+      "title": "Check your email",
+      "body": "If an account exists with this email, we've sent a password reset link. Please check your inbox and follow the instructions."
+    },
+    "fields": {
+      "email": "Email Address"
+    },
+    "placeholders": {
+      "email": "you@example.com"
+    },
+    "actions": {
+      "sending": "Sending...",
+      "sendLink": "Send Reset Link",
+      "backToLogin": "Back to Login"
+    },
+    "errors": {
+      "requestFailed": "Failed to send reset email. Please try again."
+    }
+  },
+  "resetPassword": {
+    "logoAlt": "CardioMate AI Logo",
+    "title": "Reset Password",
+    "subtitle": "Enter your new password below",
+    "success": {
+      "title": "Password Reset Successful!",
+      "body": "Your password has been reset. Redirecting to login page..."
+    },
+    "fields": {
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password"
+    },
+    "placeholders": {
+      "newPassword": "Minimum 8 characters",
+      "confirmPassword": "Re-enter your password"
+    },
+    "hints": {
+      "passwordLength": "Must be at least 8 characters long"
+    },
+    "actions": {
+      "resetting": "Resetting Password...",
+      "reset": "Reset Password",
+      "backToLogin": "Back to Login"
+    },
+    "errors": {
+      "invalidLink": "Invalid reset link. Please request a new password reset.",
+      "invalidToken": "Invalid reset token",
+      "passwordLength": "Password must be at least 8 characters long",
+      "passwordMismatch": "Passwords do not match",
+      "resetFailed": "Failed to reset password. The link may have expired."
+    }
+  }
+}
+

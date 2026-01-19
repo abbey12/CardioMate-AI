@@ -1,0 +1,1016 @@
+{
+  "app": {
+    "name": "CardioMate AI"
+  },
+  "language": {
+    "label": "Langue",
+    "english": "Anglais",
+    "french": "Français"
+  },
+  "login": {
+    "logoAlt": "Logo CardioMate AI",
+    "welcomeBack": "Bon retour",
+    "createAccount": "Créer un compte établissement",
+    "signInSubtitle": "Connectez-vous pour accéder à votre compte",
+    "signUpSubtitle": "Enregistrez votre établissement pour démarrer l’analyse ECG",
+    "signIn": "Se connecter",
+    "create": "Créer un compte",
+    "email": "Adresse e-mail",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "facilityName": "Nom de l’établissement",
+    "country": "Pays",
+    "referral": "Code de parrainage (optionnel)",
+    "placeholderEmail": "vous@exemple.com",
+    "placeholderPassword": "Saisissez votre mot de passe",
+    "placeholderConfirm": "Ressaisissez votre mot de passe",
+    "placeholderFacility": "Clinique CardioCare",
+    "placeholderReferral": "Saisir le code",
+    "selectCountry": "Sélectionnez votre pays",
+    "forgotPassword": "Mot de passe oublié ?",
+    "alreadyHave": "Vous avez déjà un compte ? Se connecter",
+    "signingIn": "Connexion...",
+    "creating": "Création du compte...",
+    "errors": {
+      "loginFailed": "Échec de la connexion. Vérifiez vos identifiants.",
+      "signupFailed": "Échec de l’inscription.",
+      "passwordLength": "Le mot de passe doit contenir au moins 8 caractères",
+      "passwordMismatch": "Les mots de passe ne correspondent pas",
+      "selectCountry": "Veuillez sélectionner votre pays"
+    }
+  },
+  "nav": {
+    "logout": "Se déconnecter",
+    "facilityPortal": "Portail établissement",
+    "adminPortal": "Portail admin"
+  },
+  "sideNav": {
+    "dashboard": "Tableau de bord",
+    "reports": "Tous les rapports",
+    "upload": "Téléverser ECG",
+    "patients": "Patients",
+    "analytics": "Analyses",
+    "referrals": "Parrainages",
+    "wallet": "Portefeuille",
+    "settings": "Paramètres",
+    "facilities": "Établissements",
+    "revenue": "Revenus",
+    "countryPricing": "Tarification par pays",
+    "auditLogs": "Journaux d'audit",
+    "paymentOps": "Opérations paiement",
+    "opsStatus": "État opérationnel"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "profile": "Profil",
+    "password": "Mot de passe",
+    "preferences": "Préférences",
+    "completeSignup": "Complétez votre inscription",
+    "signupCompleted": "Inscription terminée"
+  },
+  "adminSettings": {
+    "localization": "Localisation",
+    "defaultLanguage": "Langue par défaut pour les nouveaux établissements",
+    "save": "Enregistrer",
+    "bonuses": "Bonus",
+    "privacyRetention": "Confidentialité et conservation",
+    "bonusesLoading": "Chargement des bonus...",
+    "retentionLoading": "Chargement des paramètres de conservation..."
+  },
+  "facilityDashboard": {
+    "title": "Tableau de bord",
+    "subtitle": "Aperçu de vos rapports ECG et des performances de l’établissement",
+    "actions": {
+      "viewAllReports": "Voir tous les rapports",
+      "analytics": "Analyses",
+      "uploadNew": "Téléverser un nouvel ECG"
+    },
+    "banner": {
+      "completeSignup": "Complétez l’inscription de l’établissement",
+      "missingFields_one": "{{count}} champ requis manquant.",
+      "missingFields_other": "{{count}} champs requis manquants.",
+      "completeNow": "Compléter maintenant"
+    },
+    "errors": {
+      "loadTitle": "Erreur de chargement du tableau de bord",
+      "unexpected": "Une erreur inattendue s’est produite",
+      "retry": "Réessayer"
+    },
+    "stats": {
+      "walletBalance": "Solde du portefeuille",
+      "analysesRemaining_one": "~{{count}} analyse restante",
+      "analysesRemaining_other": "~{{count}} analyses restantes",
+      "totalReports": "Total des rapports",
+      "normalReports": "Rapports normaux",
+      "abnormalReports": "Rapports anormaux",
+      "last7Days": "7 derniers jours",
+      "avgHeartRate": "FC moyenne",
+      "avgPatientAge": "Âge moyen des patients",
+      "abnormalityRate": "Taux d’anomalies"
+    },
+    "cards": {
+      "bpmValue": "{{value}} bpm"
+    },
+    "analytics": {
+      "mostCommonFinding": "Constat le plus fréquent",
+      "activityTrend": "Tendance d'activité"
+    },
+    "pagination": {
+      "rowsPerPage": "Lignes par page :"
+    },
+    "report": {
+      "mrn": "MRN : {{mrn}}"
+    },
+    "units": {
+      "bpm": "bpm"
+    },
+    "quickActions": {
+      "title": "Actions rapides",
+      "upload": "Téléverser ECG",
+      "uploadDesc": "Téléverser un nouvel ECG pour analyse",
+      "reports": "Tous les rapports",
+      "reportsDesc": "Voir et gérer tous les rapports",
+      "analytics": "Analyses",
+      "analyticsDesc": "Voir les analyses détaillées",
+      "settings": "Paramètres",
+      "settingsDesc": "Gérer les paramètres du compte"
+    },
+    "recentReports": {
+      "title": "Rapports récents",
+      "showing_one": "Affichage de {{shown}} sur {{total}} rapport",
+      "showing_other": "Affichage de {{shown}} sur {{total}} rapports",
+      "viewAll": "Voir tout",
+      "loading": "Chargement des rapports...",
+      "noResults": "Aucun rapport trouvé",
+      "empty": "Aucun rapport pour l’instant"
+    },
+    "filters": {
+      "searchPlaceholder": "Rechercher par patient, ID ou rythme...",
+      "fromDate": "Date de début",
+      "toDate": "Date de fin",
+      "exportCsv": "Exporter CSV"
+    },
+    "table": {
+      "dateTime": "Date et heure",
+      "patient": "Patient",
+      "heartRate": "Fréquence cardiaque",
+      "rhythm": "Rythme",
+      "status": "Statut",
+      "actions": "Actions",
+      "findings_one": "{{count}} anomalie",
+      "findings_other": "{{count}} anomalies",
+      "normal": "Normal",
+      "view": "Voir"
+    },
+    "referrals": {
+      "title": "Programme de parrainage",
+      "subtitle": "Partagez votre code et gagnez des bonus lorsque des établissements s’inscrivent",
+      "viewDetails": "Voir les détails",
+      "codeLabel": "Votre code de parrainage",
+      "loading": "Chargement...",
+      "copy": "Copier",
+      "copied": "Code de parrainage copié !",
+      "noCode": "Aucun code de parrainage disponible",
+      "earnings": "Gains de parrainage",
+      "total": "Total des parrainages",
+      "thisMonth": "Ce mois-ci",
+      "recent": "Parrainages récents",
+      "table": {
+        "facility": "Établissement",
+        "bonus": "Bonus gagné",
+        "date": "Date"
+      }
+    }
+  },
+  "facilityAllReports": {
+    "title": "Tous les rapports",
+    "subtitle": "Vue complète et gestion de tous les rapports ECG",
+    "actions": {
+      "uploadNew": "Téléverser un nouvel ECG"
+    },
+    "filters": {
+      "allReports": "Tous les rapports",
+      "normalOnly": "Normaux uniquement",
+      "abnormalOnly": "Anormaux uniquement",
+      "clear": "Effacer les filtres",
+      "searchPlaceholder": "Rechercher par patient, ID, rythme ou anomalies...",
+      "fromDate": "Date de début",
+      "toDate": "Date de fin",
+      "advanced": "Avancé",
+      "rhythm": "Type de rythme",
+      "allRhythms": "Tous les rythmes",
+      "showAdvanced": "Filtres avancés",
+      "hideAdvanced": "Masquer les filtres"
+    },
+    "bulk": {
+      "selected_one": "{{count}} rapport sélectionné",
+      "selected_other": "{{count}} rapports sélectionnés",
+      "download": "Télécharger les PDF",
+      "exportCsv": "Exporter CSV",
+      "clearSelection": "Effacer la sélection"
+    },
+    "loading": "Chargement des rapports...",
+    "empty": {
+      "title": "Aucun rapport trouvé",
+      "tryFilters": "Essayez d’ajuster vos filtres",
+      "uploadFirst": "Téléversez votre premier rapport ECG pour commencer"
+    },
+    "pagination": {
+      "pageOf": "Page {{page}} sur {{total}}",
+      "perPage": "{{count}} par page"
+    },
+    "selection": {
+      "enable": "Activer la sélection"
+    },
+    "patient": {
+      "mrn": "MRN : {{mrn}}"
+    },
+    "units": {
+      "bpm": "bpm"
+    },
+    "table": {
+      "dateTime": "Date et heure",
+      "patient": "Patient",
+      "heartRate": "Fréquence cardiaque",
+      "rhythm": "Rythme",
+      "status": "Statut",
+      "actions": "Actions",
+      "findings_one": "{{count}} anomalie",
+      "findings_other": "{{count}} anomalies",
+      "normal": "Normal",
+      "view": "Voir",
+      "ageSex": "{{age}} ans, {{sex}}"
+    }
+  },
+  "facilityAnalytics": {
+    "title": "Analyses",
+    "subtitle": "Aperçu des tendances et des modèles de vos rapports ECG",
+    "filters": {
+      "title": "Filtres et plage de dates",
+      "period": "Période",
+      "daily": "Quotidien",
+      "weekly": "Hebdomadaire",
+      "monthly": "Mensuel",
+      "last7Days": "7 derniers jours",
+      "last30Days": "30 derniers jours",
+      "last90Days": "90 derniers jours"
+    },
+    "loading": "Chargement des analyses...",
+    "noData": "Aucune donnée disponible",
+    "cards": {
+      "totalReports": "Total des rapports",
+      "abnormalReports": "Rapports anormaux",
+      "normalReports": "Rapports normaux",
+      "averageAge": "Âge moyen",
+      "avgHeartRate": "FC moyenne",
+      "last7Days": "7 derniers jours",
+      "trend7Days": "7 jours vs 23 jours précédents",
+      "trendAvg23Days": "vs moyenne des 23 jours précédents",
+      "percentOfTotal": "{{percent}}% du total",
+      "yearsValue": "{{value}} ans",
+      "bpmValue": "{{value}} bpm",
+      "na": "N/A"
+    },
+    "empty": {
+      "abnormalities": "Aucune donnée d'anomalies",
+      "age": "Aucune donnée d'âge disponible",
+      "sex": "Aucune donnée de sexe disponible"
+    },
+    "charts": {
+      "volume": "Tendance du volume de rapports",
+      "reports": "Rapports",
+      "abnormalities": "Principales anomalies",
+      "ageDistribution": "Répartition par âge",
+      "sexDistribution": "Répartition par sexe"
+    }
+  },
+  "facilityUpload": {
+    "title": "Téléverser ECG",
+    "subtitle": "Téléversez des fichiers ECG pour une interprétation assistée par IA (CardioMate AI)",
+    "patientInfo": {
+      "title": "Informations patient",
+      "subtitle": "Requises pour l’interprétation clinique",
+      "fields": {
+        "name": "Nom",
+        "age": "Âge",
+        "sex": "Sexe",
+        "mrn": "Numéro de dossier médical",
+        "clinicalIndication": "Indication clinique",
+        "medications": "Médicaments"
+      },
+      "placeholders": {
+        "name": "Nom complet du patient",
+        "age": "Saisir l'âge en années",
+        "mrn": "MRN (optionnel)",
+        "clinicalIndication": "ex. : douleur thoracique, syncope, dépistage de routine",
+        "medications": "Ajouter un médicament (Entrée)"
+      },
+      "options": {
+        "selectSex": "Sélectionner...",
+        "male": "Homme",
+        "female": "Femme",
+        "other": "Autre"
+      }
+    },
+    "previewAlt": "Aperçu ECG",
+    "waveformPreview": "Aperçu du tracé",
+    "waveformPreviewTitle": "Aperçu du tracé",
+    "errors": {
+      "requiredPatientInfo": "Veuillez renseigner les informations requises : nom, âge et sexe",
+      "uploadFailed": "Échec du téléversement",
+      "downloadFailed": "Échec du téléchargement"
+    },
+    "uploadCard": {
+      "title": "Téléverser ECG",
+      "supported": "Formats pris en charge : .csv, .json, .png, .jpg, .jpeg",
+      "remove": "Retirer",
+      "dropHere": "Déposez le fichier ECG ici ou cliquez pour parcourir",
+      "supportsTypes": "Prend en charge CSV, JSON et images",
+      "imagePreview": "Aperçu de l’image",
+      "sampleRate": "Fréquence d’échantillonnage (Hz)",
+      "sampleRateHintPrefix": "Utilisé pour les fichiers CSV. Le JSON peut inclure",
+      "sampleRateHintSuffix": "Les images ignorent cette valeur.",
+      "interpreting": "Interprétation...",
+      "uploadInterpret": "Téléverser et interpréter"
+    }
+  },
+  "facilityReport": {
+    "title": "Rapport ECG",
+    "loading": "Chargement du rapport...",
+    "notFound": "Rapport introuvable",
+    "actions": {
+      "downloadPdf": "📥 Télécharger le PDF",
+      "forwardWhatsApp": "Transférer sur WhatsApp"
+    },
+    "uploadedImageAlt": "ECG téléversé",
+    "errors": {
+      "downloadFailed": "Échec du téléchargement"
+    },
+    "decision": {
+      "evidence": "Preuve :",
+      "normalRange": "Valeur normale :",
+      "deviation": "Écart :",
+      "confidence": "Confiance :"
+    },
+    "sections": {
+      "clinicalImpression": "Impression clinique",
+      "recommendations": "Recommandations",
+      "decisionExplanation": "Explication de la décision",
+      "patientInfo": "Informations patient",
+      "waveform": "Aperçu de l’onde",
+      "waveformTitle": "Aperçu de l’onde (normalisée) + marqueurs de pics R",
+      "noAbnormalities": "Aucune anomalie détectée. ECG normal."
+    },
+    "fields": {
+      "name": "Nom",
+      "age": "Âge",
+      "ageValue": "{{age}} ans",
+      "sex": "Sexe",
+      "mrn": "Dossier médical",
+      "clinicalIndication": "Indication clinique",
+      "medications": "Médicaments"
+    },
+    "whatsapp": {
+      "title": "Transférer au médecin",
+      "subtitle": "Envoyer ce rapport ECG via WhatsApp",
+      "physicianName": "Nom du médecin",
+      "physicianPlaceholder": "Dr John Smith",
+      "phoneNumber": "Numéro de téléphone",
+      "phonePlaceholder": "+1234567890 (avec indicatif)",
+      "cancel": "Annuler",
+      "open": "Ouvrir WhatsApp",
+      "summary": {
+        "title": "Ce qui sera envoyé :",
+        "patientNameDate": "Nom du patient et date du rapport",
+        "keyMeasurements": "Mesures clés (fréquence cardiaque, rythme)",
+        "abnormalities": "Résumé des anomalies",
+        "clinicalImpression": "Impression clinique",
+        "reportLink": "Lien pour consulter le rapport complet"
+      }
+    }
+  },
+  "facilityReferrals": {
+    "title": "Programme de parrainage",
+    "subtitle": "Partagez votre code et gagnez des bonus lorsque des établissements s’inscrivent",
+    "codeTitle": "Votre code de parrainage",
+    "codeSubtitle": "Partagez ce code avec d’autres établissements pour gagner des bonus",
+    "loading": "Chargement...",
+    "copy": "Copier le code",
+    "copied": "Copié !",
+    "share": "Partager",
+    "emptyCode": "Aucun code de parrainage disponible",
+    "stats": {
+      "totalReferrals": "Total des parrainages",
+      "totalEarnings": "Gains totaux",
+      "thisMonth": "Ce mois-ci",
+      "avgPerReferral": "Moyenne par parrainage"
+    },
+    "table": {
+      "title": "Tous les parrainages",
+      "loading": "Chargement des parrainages...",
+      "theyReceived": "Ils ont reçu",
+      "youEarned": "Vous avez gagné"
+    }
+  },
+  "adminReports": {
+    "title": "Tous les rapports",
+    "subtitle": "Voir tous les rapports ECG de toutes les structures",
+    "searchPlaceholder": "Rechercher par ID de rapport ou rythme...",
+    "loading": "Chargement des rapports...",
+    "na": "N/A",
+    "table": {
+      "patient": "Patient",
+      "heartRate": "Fréquence cardiaque",
+      "rhythm": "Rythme",
+      "date": "Date",
+      "actions": "Actions",
+      "anonymizedPatient": "Patient {{id}}",
+      "heartRateValue": "{{value}} bpm"
+    },
+    "empty": {
+      "search": "Aucun rapport ne correspond à votre recherche.",
+      "default": "Aucun rapport pour le moment."
+    }
+  },
+  "adminDashboard": {
+    "pricing": {
+      "manage": "Gérer les tarifs",
+      "loading": "Chargement des tarifs...",
+      "standardTitle": "Analyse standard",
+      "standardHint": "Fichiers CSV/JSON",
+      "imageTitle": "Analyse d'image",
+      "imageHint": "Fichiers image (JPG/PNG/PDF)"
+    },
+    "bonuses": {
+      "title": "Configuration des bonus",
+      "subtitle": "Gérer les бонус d'inscription et de parrainage",
+      "manage": "Gérer les bonus",
+      "loading": "Chargement des bonus...",
+      "signupTitle": "Bonus d'inscription",
+      "referralTitle": "Bonus de parrainage",
+      "enabled": "✓ Activé",
+      "disabled": "Désactivé",
+      "signupHint": "Pour les nouvelles inscriptions",
+      "referralHint": "Pour les établissements parrainants"
+    },
+    "recentFacilities": {
+      "title": "Établissements récents",
+      "subtitle": "Derniers établissements enregistrés",
+      "loading": "Chargement des établissements..."
+    },
+    "quickActions": {
+      "manageFacilities": {
+        "title": "Gérer les établissements",
+        "subtitle": "Voir et gérer tous les établissements"
+      },
+      "allReports": {
+        "title": "Tous les rapports",
+        "subtitle": "Voir tous les rapports ECG"
+      },
+      "analytics": {
+        "title": "Analytique de la plateforme",
+        "subtitle": "Voir les insights de la plateforme"
+      }
+    }
+  },
+  "facilityWallet": {
+    "title": "Gestion du portefeuille",
+    "currentBalance": "Solde actuel",
+    "loadingBalance": "Chargement...",
+    "lowBalance": "⚠️ Solde faible",
+    "analysisPricing": "Tarification de l'analyse :",
+    "pricingStandard": "Standard (CSV/JSON)",
+    "pricingImage": "Image",
+    "topUpTitle": "Recharger le portefeuille via Paystack",
+    "paymentInProgress": "Paiement en cours...",
+    "paymentReference": "Référence : {{reference}}",
+    "customAmountPlaceholder": "Montant personnalisé ({{symbol}}{{min}} - {{symbol}}{{max}})",
+    "initializing": "Initialisation...",
+    "payWithPaystack": "Payer avec Paystack",
+    "securePaymentNote": "Paiement sécurisé via Paystack. Prend en charge les cartes, le mobile money (MTN, Vodafone, AirtelTigo) et les virements bancaires.",
+    "recentTopUps": "Recharges récentes",
+    "referenceLabel": "Réf. :",
+    "confirmCancelTopUp": "Voulez-vous vraiment annuler cette recharge ?",
+    "delete": "Supprimer",
+    "retrying": "Nouvelle tentative...",
+    "tryPayment": "Réessayer le paiement",
+    "transactionHistory": "Historique des transactions",
+    "loadingTransactions": "Chargement des transactions...",
+    "noTransactions": "Aucune transaction trouvée",
+    "table": {
+      "date": "Date",
+      "type": "Type",
+      "amount": "Montant",
+      "balanceAfter": "Solde après",
+      "description": "Description",
+      "status": "Statut"
+    },
+    "pagination": {
+      "previous": "Précédent",
+      "next": "Suivant",
+      "pageOf": "Page {{page}} sur {{totalPages}}"
+    },
+    "alerts": {
+      "paymentSuccess": "Paiement réussi ! Votre portefeuille a été rechargé.",
+      "cancelled": "Recharge annulée avec succès",
+      "cancelFailed": "Échec de l'annulation de la recharge",
+      "paystackKeyMissing": "La clé publique Paystack n'est pas configurée. Veuillez vérifier vos variables d'environnement.",
+      "userEmailRequired": "L'e-mail de l'utilisateur est requis pour le paiement. Veuillez vous reconnecter.",
+      "retryFailed": "Échec de la nouvelle tentative de paiement",
+      "paymentNotCompleted": "Le paiement n'a pas été terminé. Veuillez réessayer.",
+      "initFailed": "Échec de l'initialisation du paiement",
+      "invalidAmount": "Veuillez saisir un montant valide",
+      "minAmount": "Le montant minimum de recharge est {{amount}}",
+      "maxAmount": "Le montant maximum de recharge est {{amount}}"
+    }
+  },
+  "facilitySettings": {
+    "subtitle": "Gérez les paramètres et préférences de votre compte",
+    "messages": {
+      "profileUpdated": "Profil mis à jour avec succès",
+      "profileUpdateFailed": "Échec de la mise à jour du profil",
+      "passwordChanged": "Mot de passe modifié avec succès",
+      "passwordChangeFailed": "Échec de la modification du mot de passe",
+      "passwordMismatch": "Les nouveaux mots de passe ne correspondent pas",
+      "passwordLength": "Le mot de passe doit comporter au moins 8 caractères",
+      "preferencesSaved": "Préférences enregistrées",
+      "preferencesSaveFailed": "Échec de l'enregistrement des préférences"
+    },
+    "missingFields": {
+      "phone": "Téléphone de l'établissement",
+      "addressLine1": "Adresse ligne 1",
+      "city": "Ville",
+      "country": "Pays",
+      "facilityType": "Type d'établissement",
+      "contactName": "Nom du contact principal",
+      "contactPhone": "Téléphone du contact principal"
+    },
+    "profile": {
+      "city": "Ville",
+      "country": "Pays",
+      "selectCountry": "Sélectionner un pays",
+      "facilityType": "Type d'établissement",
+      "selectType": "Sélectionner un type",
+      "websiteOptional": "Site web (optionnel)",
+      "primaryContact": "Contact principal",
+      "contactName": "Nom du contact",
+      "contactPhone": "Téléphone du contact",
+      "accountDetails": "Détails du compte",
+      "placeholders": {
+        "phone": "+233...",
+        "website": "https://",
+        "contactPhone": "+233xxxxxxxxx"
+      }
+    },
+    "completeSignup": {
+      "subtitle": "Remplissez les champs requis ci-dessous pour terminer l'inscription et activer la facturation et les rapports."
+    },
+    "actions": {
+      "saving": "Enregistrement...",
+      "saveChanges": "Enregistrer les modifications"
+    },
+    "preferences": {
+      "title": "Préférences",
+      "subtitle": "Personnalisez votre utilisation du portail. Enregistré localement sur cet appareil.",
+      "defaultDateRange": "Période par défaut",
+      "last7Days": "7 derniers jours",
+      "last30Days": "30 derniers jours",
+      "last90Days": "90 derniers jours",
+      "defaultReportView": "Vue de rapport par défaut",
+      "summary": "Résumé",
+      "fullReport": "Rapport complet",
+      "placeholders": {
+        "timezone": "ex. : Africa/Accra"
+      }
+    },
+    "facilityType": {
+      "hospital": "Hôpital",
+      "clinic": "Clinique",
+      "diagnosticCenter": "Centre de diagnostic",
+      "telemedicine": "Télémédecine",
+      "research": "Recherche",
+      "other": "Autre"
+    }
+  },
+  "adminAnalytics": {
+    "title": "Analytique de la plateforme",
+    "subtitle": "Aperçus complets sur toutes les structures et rapports",
+    "filters": {
+      "title": "Filtres",
+      "fromDate": "Date de début",
+      "toDate": "Date de fin",
+      "period": "Période",
+      "daily": "Quotidien",
+      "weekly": "Hebdomadaire",
+      "monthly": "Mensuel",
+      "clear": "Effacer les filtres"
+    },
+    "metrics": {
+      "totalFacilities": "Total des structures",
+      "totalReports": "Total des rapports",
+      "normalReports": "Rapports normaux",
+      "abnormalReports": "Rapports anormaux",
+      "avgHeartRate": "Fréquence cardiaque moyenne",
+      "avgAge": "Âge moyen",
+      "reportsLast30Days": "{{count}} sur les 30 derniers jours",
+      "percentOfTotal": "{{percent}}% du total",
+      "abnormalityRate": "{{percent}}% d'anomalies",
+      "avgHeartRateValue": "{{value}} bpm",
+      "avgAgeValue": "{{value}} ans",
+      "na": "N/A"
+    },
+    "reportVolume": {
+      "title": "Volume des rapports dans le temps",
+      "subtitle": "Nombre de rapports {{period}}",
+      "legend": "Rapports"
+    },
+    "chart": {
+      "loading": "Chargement des données du graphique...",
+      "noData": "Aucune donnée disponible"
+    },
+    "abnormalities": {
+      "title": "Principales anomalies",
+      "subtitle": "Constats les plus fréquents",
+      "countLabel": "Nombre",
+      "noData": "Aucune donnée d'anomalies"
+    },
+    "demographics": {
+      "sexDistribution": {
+        "title": "Répartition par sexe",
+        "subtitle": "Démographie des patients"
+      },
+      "noData": "Aucune donnée démographique"
+    },
+    "insights": {
+      "title": "Aperçus supplémentaires",
+      "mostCommonAbnormality": "Anomalie la plus fréquente",
+      "averagePatientAge": "Âge moyen des patients",
+      "reportsLast7Days": "Rapports des 7 derniers jours"
+    },
+    "facilityHealth": {
+      "title": "Classement & santé des structures",
+      "subtitle": "Top structures par volume, taux d'anomalies, revenus et dernière activité",
+      "loading": "Chargement des données de santé des structures...",
+      "noData": "Aucune donnée de structure disponible",
+      "abnormalCount": "{{count}} anormal",
+      "table": {
+        "facility": "Structure",
+        "reports": "Rapports",
+        "abnormalRate": "Taux d'anomalies",
+        "revenue": "Revenus",
+        "lastActivity": "Dernière activité"
+      }
+    }
+  },
+  "adminFacilities": {
+    "title": "Gestion des structures",
+    "subtitle": "Gérer toutes les structures de la plateforme",
+    "searchPlaceholder": "Rechercher des structures par nom ou e-mail...",
+    "loading": "Chargement des structures...",
+    "confirmDelete": "Supprimer {{name}} ? Cela supprimera aussi tous leurs rapports et données de portefeuille.",
+    "table": {
+      "facility": "Structure",
+      "email": "E-mail",
+      "created": "Créé",
+      "actions": "Actions"
+    },
+    "actions": {
+      "create": "Créer une structure",
+      "view": "Voir",
+      "delete": "Supprimer",
+      "cancel": "Annuler"
+    },
+    "empty": {
+      "search": "Aucune structure ne correspond à votre recherche.",
+      "default": "Aucune structure pour le moment. Créez-en une pour commencer."
+    },
+    "modal": {
+      "title": "Détails de la structure",
+      "loading": "Chargement des détails de la structure...",
+      "created": "Créé",
+      "facilityId": "ID de la structure",
+      "totalReports": "Total des rapports",
+      "walletBalance": "Solde du portefeuille",
+      "failedToLoad": "Échec du chargement des détails de la structure",
+      "quickActions": {
+        "title": "Actions rapides",
+        "reports": "Voir tous les rapports de cette structure dans la section Rapports",
+        "revenue": "Vérifier les revenus générés par cette structure dans la section Revenus",
+        "activity": "Suivre l'activité et les performances de la structure"
+      }
+    },
+    "createModal": {
+      "title": "Créer une nouvelle structure",
+      "error": "Échec de la création de la structure",
+      "fields": {
+        "name": "Nom de la structure",
+        "email": "Adresse e-mail",
+        "password": "Mot de passe",
+        "referral": "Code de parrainage (optionnel)"
+      },
+      "placeholders": {
+        "name": "Saisir le nom de la structure",
+        "email": "structure@example.com",
+        "password": "Minimum 8 caractères",
+        "referral": "Saisir le code de parrainage si applicable"
+      },
+      "hints": {
+        "password": "Doit comporter au moins 8 caractères",
+        "referral": "Si fourni, la structure référente recevra un bonus"
+      },
+      "creating": "Création..."
+    }
+  },
+  "adminReport": {
+    "title": "Rapport ECG",
+    "loading": "Chargement du rapport...",
+    "notFound": "Rapport introuvable",
+    "backToReports": "← Retour aux rapports",
+    "backToAllReports": "Retour à tous les rapports",
+    "reportId": "ID du rapport : {{id}}",
+    "downloadPdf": "Télécharger le PDF",
+    "downloadFailed": "Échec du téléchargement",
+    "uploadedImage": "Image ECG téléversée",
+    "uploadedImageAlt": "ECG téléversé",
+    "aiReport": "Rapport",
+    "modelCreated": "Créé : {{createdAt}}",
+    "unknownModel": "inconnu",
+    "na": "N/A",
+    "patientInfoTitle": "Informations du patient",
+    "waveformTitle": "Aperçu du tracé (normalisé) + marqueurs R-peak",
+    "waveformPreview": "Aperçu du tracé",
+    "privacyNote": {
+      "title": "Note de confidentialité :",
+      "body": "Les informations d'identification du patient ont été anonymisées pour la vue admin. Le numéro de dossier médical (MRN) et autres identifiants sensibles ne sont pas affichés."
+    },
+    "fields": {
+      "name": "Nom",
+      "anonymizedName": "Patient {{id}}",
+      "age": "Âge",
+      "ageValue": "{{value}} ans",
+      "sex": "Sexe",
+      "clinicalIndication": "Indication clinique",
+      "medications": "Médicaments",
+      "medicationsCount": "{{count}} médicament(s) listé(s)",
+      "heartRate": "Fréquence cardiaque",
+      "heartRateValue": "{{value}} bpm",
+      "rhythm": "Rythme",
+      "prInterval": "Intervalle PR",
+      "qrsDuration": "Durée QRS",
+      "qtInterval": "Intervalle QT",
+      "qtcInterval": "Intervalle QTc"
+    }
+  },
+  "adminRevenue": {
+    "title": "Gestion des revenus",
+    "subtitle": "Analytique et insights des revenus de la plateforme",
+    "export": "Exporter",
+    "exportComingSoon": "La fonctionnalité d'export arrive bientôt",
+    "error": {
+      "title": "Erreur lors du chargement des revenus",
+      "message": "Une erreur inattendue s'est produite",
+      "retry": "Réessayer"
+    },
+    "loading": "Chargement des données de revenus...",
+    "loadingShort": "Chargement...",
+    "noData": "Aucune donnée de revenus disponible",
+    "metrics": {
+      "totalRevenue": "Revenu total",
+      "totalRevenueSubtitle": "À partir de {{count}} recharges",
+      "topUpRevenue": "Revenus des recharges",
+      "topUpRevenueSubtitle": "{{count}} recharges vérifiées",
+      "analysisRevenue": "Revenus des analyses",
+      "analysisRevenueSubtitle": "{{count}} analyses réalisées",
+      "avgTopUp": "Moyenne par recharge",
+      "avgTopUpSubtitle": "Montant moyen de recharge"
+    },
+    "trends": {
+      "title": "Tendances des revenus",
+      "subtitle": "Revenus mensuels des recharges (12 derniers mois)",
+      "revenueLabel": "Revenus"
+    },
+    "analysisType": {
+      "title": "Revenus par type d'analyse",
+      "standard": "Standard (CSV/JSON)",
+      "image": "Image (JPG/PNG/PDF)",
+      "analysisCount": "{{count}} analyses"
+    },
+    "topFacilities": {
+      "title": "Top structures par revenus",
+      "totalRevenue": "Revenu total"
+    },
+    "table": {
+      "title": "Revenus par structure",
+      "loading": "Chargement des revenus des structures...",
+      "facility": "Structure",
+      "topUpRevenue": "Revenus des recharges",
+      "analysisRevenue": "Revenus des analyses",
+      "totalRevenue": "Revenu total",
+      "transactions": "Transactions",
+      "topUpCount": "{{count}} recharges",
+      "analysisCount": "{{count}} analyses",
+      "transactionsTotal": "{{count}} total"
+    }
+  },
+  "adminPaymentOps": {
+    "title": "Opérations de paiement",
+    "subtitle": "Suivre les webhooks Paystack, échecs, relances et rapprochements",
+    "refresh": "Actualiser",
+    "summary": {
+      "totalWebhooks": "Total des webhooks",
+      "processed": "Traités",
+      "failed": "Échoués"
+    },
+    "status": {
+      "all": "Tous",
+      "processed": "Traités",
+      "failed": "Échoués",
+      "pending": "En attente"
+    },
+    "webhooks": {
+      "title": "Événements webhook",
+      "loading": "Chargement des événements webhook...",
+      "empty": "Aucun événement webhook",
+      "retry": "Réessayer",
+      "table": {
+        "event": "Événement",
+        "reference": "Référence",
+        "status": "Statut",
+        "attempts": "Tentatives",
+        "actions": "Actions"
+      }
+    },
+    "topUps": {
+      "title": "Recharges",
+      "loading": "Chargement des recharges...",
+      "empty": "Aucune recharge",
+      "table": {
+        "reference": "Référence",
+        "requested": "Demandé",
+        "received": "Reçu",
+        "status": "Statut"
+      }
+    }
+  },
+  "adminOpsStatus": {
+    "title": "Statut opérationnel",
+    "subtitle": "Santé du système, erreurs IA, échecs d’e-mails et événements opérationnels",
+    "na": "—",
+    "cards": {
+      "errors24h": "Erreurs (24h)",
+      "aiErrors24h": "Erreurs IA (24h)",
+      "emailErrors24h": "Erreurs e-mail (24h)",
+      "lastEvent": "Dernier événement"
+    },
+    "recentEvents": {
+      "title": "Événements récents",
+      "loading": "Chargement des événements...",
+      "empty": "Aucun événement opérationnel",
+      "table": {
+        "type": "Type",
+        "message": "Message",
+        "time": "Heure"
+      }
+    }
+  },
+  "adminAuditLogs": {
+    "title": "Journaux d'audit",
+    "subtitle": "Suivre les actions admin sur la plateforme",
+    "refresh": "Actualiser",
+    "loading": "Chargement des journaux...",
+    "empty": "Aucun journal d'audit pour le moment",
+    "table": {
+      "action": "Action",
+      "entity": "Entité",
+      "metadata": "Métadonnées",
+      "time": "Heure"
+    }
+  },
+  "adminCountryPricing": {
+    "title": "Gestion des tarifs par pays",
+    "subtitle": "Configurer les tarifs pour chaque pays où vous vous développez",
+    "addPricing": "Ajouter un tarif pays",
+    "editPricing": "Modifier le tarif pays",
+    "searchPlaceholder": "Rechercher des pays...",
+    "totalCountries": "Total des pays",
+    "pricingConfigs": "Configurations tarifaires",
+    "loading": "Chargement des tarifs par pays...",
+    "error": "Échec du chargement des tarifs par pays",
+    "noPricing": "Aucun tarif par pays configuré pour le moment. Cliquez sur 'Ajouter un tarif pays' pour commencer.",
+    "country": "Pays",
+    "analysisType": "Type d'analyse",
+    "price": "Prix",
+    "currency": "Devise",
+    "actions": "Actions",
+    "standard": "Standard",
+    "image": "Image",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "selectCountry": "Sélectionner un pays",
+    "standardLabel": "Standard (CSV/JSON)",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "saving": "Enregistrement..."
+  },
+  "adminLogin": {
+    "title": "Portail admin",
+    "subtitleLogin": "Connexion au portail admin",
+    "subtitleSignup": "Créer un compte admin",
+    "fields": {
+      "name": "Nom",
+      "email": "E-mail",
+      "password": "Mot de passe"
+    },
+    "placeholders": {
+      "name": "Votre nom",
+      "email": "admin@example.com",
+      "password": "Mot de passe",
+      "passwordSignup": "Min 8 caractères"
+    },
+    "actions": {
+      "loading": "Chargement...",
+      "create": "Créer un compte",
+      "signIn": "Se connecter",
+      "backToSelection": "← Retour au choix du portail"
+    },
+    "errors": {
+      "authFailed": "Échec de l'authentification"
+    }
+  },
+  "facilityLogin": {
+    "title": "Portail établissement",
+    "subtitle": "Connexion à votre compte établissement",
+    "fields": {
+      "email": "E-mail",
+      "password": "Mot de passe"
+    },
+    "placeholders": {
+      "email": "facility@example.com",
+      "password": "Mot de passe"
+    },
+    "actions": {
+      "loading": "Chargement...",
+      "signIn": "Se connecter",
+      "backToSelection": "← Retour au choix du portail"
+    },
+    "errors": {
+      "loginFailed": "Échec de la connexion"
+    }
+  },
+  "forgotPassword": {
+    "logoAlt": "Logo CardioMate AI",
+    "title": "Mot de passe oublié ?",
+    "subtitle": "Saisissez votre e-mail et nous vous enverrons un lien de réinitialisation",
+    "success": {
+      "title": "Vérifiez votre e-mail",
+      "body": "Si un compte existe avec cet e-mail, nous avons envoyé un lien de réinitialisation. Vérifiez votre boîte de réception."
+    },
+    "fields": {
+      "email": "Adresse e-mail"
+    },
+    "placeholders": {
+      "email": "you@example.com"
+    },
+    "actions": {
+      "sending": "Envoi...",
+      "sendLink": "Envoyer le lien de réinitialisation",
+      "backToLogin": "Retour à la connexion"
+    },
+    "errors": {
+      "requestFailed": "Échec de l'envoi de l'e-mail. Veuillez réessayer."
+    }
+  },
+  "resetPassword": {
+    "logoAlt": "Logo CardioMate AI",
+    "title": "Réinitialiser le mot de passe",
+    "subtitle": "Saisissez votre nouveau mot de passe ci-dessous",
+    "success": {
+      "title": "Mot de passe réinitialisé !",
+      "body": "Votre mot de passe a été réinitialisé. Redirection vers la page de connexion..."
+    },
+    "fields": {
+      "newPassword": "Nouveau mot de passe",
+      "confirmPassword": "Confirmer le mot de passe"
+    },
+    "placeholders": {
+      "newPassword": "Minimum 8 caractères",
+      "confirmPassword": "Saisissez à nouveau votre mot de passe"
+    },
+    "hints": {
+      "passwordLength": "Doit comporter au moins 8 caractères"
+    },
+    "actions": {
+      "resetting": "Réinitialisation...",
+      "reset": "Réinitialiser le mot de passe",
+      "backToLogin": "Retour à la connexion"
+    },
+    "errors": {
+      "invalidLink": "Lien de réinitialisation invalide. Veuillez en demander un nouveau.",
+      "invalidToken": "Jeton de réinitialisation invalide",
+      "passwordLength": "Le mot de passe doit comporter au moins 8 caractères",
+      "passwordMismatch": "Les mots de passe ne correspondent pas",
+      "resetFailed": "Échec de la réinitialisation. Le lien a peut-être expiré."
+    }
+  }
+}
+
